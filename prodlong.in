@@ -1,0 +1,11 @@
+MD explicit solvent heavy atom no rest shake dt 0.002 10ns total save frames every 50ps
+ &cntrl
+  imin = 0, nstlim = 5000000, dt=0.002,
+  ntx = 1, irest = 0, t=0.0
+  ntwx = 25000, ioutfm = 1, ntxo =2, ntpr = 25000, ntwr = 25000,
+  iwrap = 1, nscm = 1000,
+  ntc = 2, ntf = 2, ntb = 2, cut = 8.0,
+  ntt = 3, ig = -1, gamma_ln = 3, temp0 = 310, tempi = 310,
+  ntp = 1, taup = 2.0, barostat = 2,
+  igb = 0,
+ /
