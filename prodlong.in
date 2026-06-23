@@ -1,4 +1,4 @@
-MD explicit solvent heavy atom no rest shake dt 0.002 100ns total save frames every 50ps
+MD explicit solvent heavy atom no rest shake dt 0.004 100ns total save frames every 50ps
  &cntrl
   imin = 0, nstlim = 25000000, dt=0.004,
   ntx = 1, irest = 0, t=0.0
